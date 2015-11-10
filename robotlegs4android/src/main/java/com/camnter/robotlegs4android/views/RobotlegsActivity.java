@@ -17,7 +17,7 @@ public abstract class RobotlegsActivity extends AppCompatActivity {
      * Please set the fragment layout id
      * 请设置Fragment的布局Id
      *
-     * @return
+     * @return int
      */
     public abstract int getLayoutId();
 

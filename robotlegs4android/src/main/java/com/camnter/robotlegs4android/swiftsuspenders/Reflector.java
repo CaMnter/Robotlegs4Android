@@ -18,9 +18,9 @@ public class Reflector {
      * Judge whether a class inherits a class or implements an interface
      * 判断一个类是否继承了某个类或实现了某个接口
      *
-     * @param classOrClassName
-     * @param superclass
-     * @return
+     * @param classOrClassName classOrClassName
+     * @param superclass superclass
+     * @return Boolean
      */
     public Boolean classExtendsOrImplements(Object classOrClassName, Class<?> superclass) {
         Class<?> actualClass = null;
@@ -62,8 +62,8 @@ public class Reflector {
      * Get the class object of target object
      * 获取目标对象的类对象
      *
-     * @param value
-     * @return
+     * @param value value
+     * @return Class
      */
     public Class<?> getClass(Object value) {
         if (Class.class.isInstance(value)) {
@@ -76,9 +76,9 @@ public class Reflector {
      * Get fully qualified class name
      * 获得完全限定类名
      *
-     * @param value
-     * @param replaceColons
-     * @return
+     * @param value value
+     * @param replaceColons replaceColons
+     * @return String
      */
     public String getFullyQualifiedClassName(Object value, Boolean replaceColons) {
         String fullyQualifiedClassName;

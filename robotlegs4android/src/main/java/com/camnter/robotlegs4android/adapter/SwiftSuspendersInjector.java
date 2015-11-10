@@ -20,7 +20,7 @@ public class SwiftSuspendersInjector extends Injector implements IInjector {
      * Init the XML config
      * 初始化XML配置
      *
-     * @return
+     * @return XML
      */
     private static XML initXML_CONFIG() {
         XML result = new XML();
@@ -71,8 +71,8 @@ public class SwiftSuspendersInjector extends Injector implements IInjector {
      * Get the parameters if constructor
      * 获得构造方法参数
      *
-     * @param xmlConfig
-     * @return
+     * @param xmlConfig xmlConfig
+     * @return XML
      */
     private static XML getConstructParam(XML xmlConfig) {
         if (xmlConfig != null) {
@@ -87,7 +87,7 @@ public class SwiftSuspendersInjector extends Injector implements IInjector {
      * The constructor
      * 构造方法
      *
-     * @param xmlConfig
+     * @param xmlConfig xmlConfig
      */
     public SwiftSuspendersInjector(XML xmlConfig) {
         super(SwiftSuspendersInjector.getConstructParam(xmlConfig));

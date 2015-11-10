@@ -11,6 +11,8 @@ public interface IApplication {
     /**
      * Get the robotlegs4android's context
      * 获取robotlegs4android的context
+     *
+     * @return Context
      */
     Context getMvcContext();
 }

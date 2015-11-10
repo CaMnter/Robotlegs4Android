@@ -21,32 +21,32 @@ import java.util.Map;
 public class MediatorMap extends ViewMapBase implements IMediatorMap {
 
     /**
-     * @private
+     * private
      */
     protected Map<String, Object> mediatorByView;
 
     /**
-     * @private
+     * private
      */
     protected Map<String, Object> mappingConfigByView;
 
     /**
-     * @private
+     * private
      */
     protected Map<String, Object> mappingConfigByViewClassName;
 
     /**
-     * @private
+     * private
      */
     protected Map<String, Object> mediatorsMarkedForRemoval;
 
     /**
-     * @private
+     * private
      */
     protected Boolean hasMediatorsMarkedForRemoval;
 
     /**
-     * @private
+     * private
      */
     protected IReflector reflector;
 
@@ -147,7 +147,6 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IMediatorMap #unmapView}
      */
     @Override
@@ -320,7 +319,7 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
      * When the view is added
      * 当view被添加时
      *
-     * @param view
+     * @param view view
      */
     protected void onViewAdded(Object view) {
         if (this.mediatorsMarkedForRemoval.get(view.hashCode() + "") != null) {
@@ -339,7 +338,10 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
      * When the Mediator to create or are using
      * 当Mediator创建或者正在使用时
      *
-     * @private
+     * @param viewComponent viewComponent
+     * @param viewClassName viewClassName
+     * @param config        config
+     * @return IMediator
      */
     protected IMediator createMediatorUsing(Object viewComponent, String viewClassName, MappingConfig config) {
         IMediator mediator = (IMediator) this.mediatorByView.get(viewComponent
@@ -374,7 +376,7 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
      * Flex框架的变通办法 #5
      * 当view被删除时
      *
-     * @param view
+     * @param view view
      */
     protected void onViewRemoved(Object view) {
         MappingConfig config = (MappingConfig) this.mappingConfigByView

@@ -24,6 +24,10 @@ public class PostConstructInjectionPoint extends InjectionPoint {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param node     node
+     * @param injector injector
+     */
     public PostConstructInjectionPoint(XML node, Injector injector) {
         super(node, injector);
     }
@@ -32,7 +36,7 @@ public class PostConstructInjectionPoint extends InjectionPoint {
      * Get the PostConstructInjectionPoint.this.orderValue
      * 获得PostConstructInjectionPoint.this.orderValue
      *
-     * @return
+     * @return int
      */
     public int getOrder() {
         return this.orderValue;
@@ -59,7 +63,6 @@ public class PostConstructInjectionPoint extends InjectionPoint {
      *******************************************************************************************/
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionpoints.InjectionPoint #initializeInjection}
      */
     @Override

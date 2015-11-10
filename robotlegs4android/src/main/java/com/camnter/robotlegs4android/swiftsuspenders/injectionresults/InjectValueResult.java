@@ -16,18 +16,21 @@ public class InjectValueResult extends InjectionResult {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param value value
+     */
     public InjectValueResult(Object value) {
         this.m_value = value;
     }
 
     /**
      * Get the response
-     * <p/>
      * 获得响应
-     * <p/>
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionresults.InjectionResult #getResponse}
+     *
+     * @param injector injector
+     * @return Object
      */
     @Override
     public Object getResponse(Injector injector) {

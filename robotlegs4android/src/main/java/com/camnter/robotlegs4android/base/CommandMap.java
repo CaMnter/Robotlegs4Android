@@ -76,7 +76,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #mapEvent}
      */
     @Override
@@ -110,7 +109,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #unmapEvent}
      */
     @Override
@@ -138,7 +136,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #unmapEvents}
      */
     @Override
@@ -161,7 +158,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #hasEventCommand}
      */
     @Override
@@ -183,7 +179,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #execute}
      */
     @Override
@@ -212,7 +207,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #detain}
      */
     @Override
@@ -222,7 +216,6 @@ public class CommandMap implements ICommandMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.ICommandMap #release}
      */
     @Override
@@ -237,8 +230,8 @@ public class CommandMap implements ICommandMap {
     // ---------------------------------------------------------------------
 
     /**
-     * @param commandClass
-     * @throws <code>com.camnter.robotlegs4android.base.ContextError</code>
+     * @param commandClass commandClass
+     * throws <code>com.camnter.robotlegs4android.base.ContextError</code>
      */
     protected void verifyCommandClass(Class<?> commandClass) {
         if (this.verifiedCommandClasses.get(commandClass.getName()) == null) {
@@ -263,7 +256,7 @@ public class CommandMap implements ICommandMap {
      * @param commandClass       The Class to construct and execute 类来构建和执行
      * @param oneshot            Should this command mapping be removed after execution?
      *                           这个命令映射应该移除之后执行吗?
-     * @param originalEventClass
+     * @param originalEventClass originalEventClass
      * @return <code>true</code> if the event was routed to a Command and the
      * Command was executed, <code>false</code> otherwise
      * true 如果事件被路由到一个命令和命令执行,否则false

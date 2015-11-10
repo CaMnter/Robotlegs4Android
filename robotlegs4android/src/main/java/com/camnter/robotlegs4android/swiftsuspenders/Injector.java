@@ -47,6 +47,10 @@ public class Injector {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     *
+     * @param xmlConfig xmlConfig
+     */
     public Injector(XML xmlConfig) {
         this.m_mappings = new HashMap<String, Object>();
         if (xmlConfig != null) {
@@ -62,10 +66,10 @@ public class Injector {
      * Set the inject value result
      * 设置注入值的结果
      *
-     * @param whenAskedFor
-     * @param useValue
-     * @param named
-     * @return
+     * @param whenAskedFor whenAskedFor
+     * @param useValue     useValue
+     * @param named        named
+     * @return Object
      */
     public Object mapValue(Class<?> whenAskedFor, Object useValue, String named) {
         InjectionConfig config = this.getMapping(whenAskedFor, named);
@@ -77,10 +81,10 @@ public class Injector {
      * Set the inject class result
      * 设置注入类的结果
      *
-     * @param whenAskedFor
-     * @param instantiateClass
-     * @param named
-     * @return
+     * @param whenAskedFor     whenAskedFor
+     * @param instantiateClass instantiateClass
+     * @param named            named
+     * @return Object
      */
     public Object mapClass(Class<?> whenAskedFor, Class<?> instantiateClass,
                            String named) {
@@ -93,9 +97,9 @@ public class Injector {
      * Invoke the Injector.this.mapSingletonOf method
      * 调用Injector.this.mapSingletonOf方法
      *
-     * @param whenAskedFor
-     * @param named
-     * @return
+     * @param whenAskedFor whenAskedFor
+     * @param named        named
+     * @return Object
      */
     public Object mapSingleton(Class<?> whenAskedFor, String named) {
         return this.mapSingletonOf(whenAskedFor, whenAskedFor, named);
@@ -103,13 +107,12 @@ public class Injector {
 
     /**
      * Set the inject singleton result
-     * <p/>
      * 设置注入单例的结果
      *
-     * @param whenAskedFor
-     * @param useSingletonOf
-     * @param named
-     * @return
+     * @param whenAskedFor   whenAskedFor
+     * @param useSingletonOf useSingletonOf
+     * @param named          named
+     * @return Object
      */
     public Object mapSingletonOf(Class<?> whenAskedFor,
                                  Class<?> useSingletonOf, String named) {
@@ -122,10 +125,10 @@ public class Injector {
      * Set the inject other rule result
      * 设置注入其他规则的结果
      *
-     * @param whenAskedFor
-     * @param useRule
-     * @param named
-     * @return
+     * @param whenAskedFor whenAskedFor
+     * @param useRule      useRule
+     * @param named        named
+     * @return Object
      */
     public Object mapRule(Class<?> whenAskedFor, Object useRule, String named) {
         InjectionConfig config = this.getMapping(whenAskedFor, named);
@@ -137,9 +140,9 @@ public class Injector {
      * Get the Mapping(InjectionConfig)
      * 取得映射(InjectionConfig)
      *
-     * @param whenAskedFor
-     * @param named
-     * @return
+     * @param whenAskedFor whenAskedFor
+     * @param named        named
+     * @return InjectionConfig
      */
     public InjectionConfig getMapping(Class<?> whenAskedFor, String named) {
         String requestName = whenAskedFor.getName();
@@ -157,7 +160,7 @@ public class Injector {
      * Realize the injection
      * 实现注入
      *
-     * @param target
+     * @param target target
      */
     public void injectInto(Object target) {
         if ((this.m_attendedToInjectees.get(target.hashCode() + "") != null)
@@ -192,8 +195,8 @@ public class Injector {
      * Instantiate
      * 实例化
      *
-     * @param clazz
-     * @return
+     * @param clazz clazz
+     * @return Object
      */
     public Object instantiate(Class<?> clazz) {
         InjecteeDescription injecteeDescription = (InjecteeDescription) this.m_injecteeDescriptions
@@ -211,8 +214,8 @@ public class Injector {
      * Cancel the mapping
      * 取消映射
      *
-     * @param clazz
-     * @param named
+     * @param clazz clazz
+     * @param named named
      */
     public void unmap(Class<?> clazz, String named) {
         InjectionConfig mapping = this.getConfigurationForRequest(clazz, named,
@@ -229,9 +232,9 @@ public class Injector {
      * Determine whether there was a mapping
      * 判断是否有映射
      *
-     * @param clazz
-     * @param named
-     * @return
+     * @param clazz clazz
+     * @param named named
+     * @return Boolean
      */
     public Boolean hasMapping(Class<?> clazz, String named) {
         InjectionConfig mapping = this.getConfigurationForRequest(clazz, named,
@@ -246,9 +249,9 @@ public class Injector {
      * Get the instance
      * 获得实例
      *
-     * @param clazz
-     * @param named
-     * @return
+     * @param clazz clazz
+     * @param named named
+     * @return Object
      */
     public Object getInstance(Class<?> clazz, String named) {
         InjectionConfig mapping = this.getConfigurationForRequest(clazz, named,
@@ -266,7 +269,7 @@ public class Injector {
      * Create the child injector
      * 创建子注入器
      *
-     * @return
+     * @return Injector
      */
     public Injector createChildInjector() {
         Injector injector = new Injector(null);
@@ -278,7 +281,7 @@ public class Injector {
      * Set the parent injector
      * 设置父注入器
      *
-     * @param parentInjector
+     * @param parentInjector parentInjector
      */
     public void setParentInjector(Injector parentInjector) {
 
@@ -307,7 +310,7 @@ public class Injector {
      * Get the parent injector
      * 获得父注入器
      *
-     * @return
+     * @return Injector
      */
     public Injector getParentInjector() {
         return this.m_parentInjector;
@@ -329,9 +332,9 @@ public class Injector {
      * Get the ancestor mapping
      * 获得祖先的映射
      *
-     * @param whenAskedFor
-     * @param named
-     * @return
+     * @param whenAskedFor whenAskedFor
+     * @param named        named
+     * @return InjectionConfig
      */
     InjectionConfig getAncestorMapping(Class<?> whenAskedFor, String named) {
         Injector parent = this.m_parentInjector;
@@ -349,7 +352,7 @@ public class Injector {
      * Get the Injector.this.m_attendedToInjectees
      * 获得Injector.this.m_attendedToInjectees
      *
-     * @return
+     * @return Map
      */
     Map<String, Object> getAttendedToInjectees() {
         return this.m_attendedToInjectees;
@@ -363,8 +366,8 @@ public class Injector {
      * Get the all injection points
      * 获得所有注入点
      *
-     * @param clazz
-     * @return
+     * @param clazz clazz
+     * @return InjecteeDescription
      */
     private InjecteeDescription getInjectionPoints(Class<?> clazz) {
         XML description = Base.describeType(clazz);
@@ -457,10 +460,10 @@ public class Injector {
      * Get injection configuration for request
      * 获得注入配置请求
      *
-     * @param clazz
-     * @param named
-     * @param traverseAncestors
-     * @return
+     * @param clazz             clazz
+     * @param named             named
+     * @param traverseAncestors traverseAncestors
+     * @return InjectionConfig
      */
     private InjectionConfig getConfigurationForRequest(Class<?> clazz,
                                                        String named, Boolean traverseAncestors) {
@@ -479,7 +482,7 @@ public class Injector {
      * Create injection points from configuration XML
      * 从配置XML创建注入点
      *
-     * @param description
+     * @param description description
      */
     private void createInjectionPointsFromConfigXML(XML description) {
 
@@ -571,8 +574,8 @@ public class Injector {
      * Add parent injection points
      * 添加父注入点
      *
-     * @param description
-     * @param injectionPoints
+     * @param description     description
+     * @param injectionPoints injectionPoints
      */
     private void addParentInjectionPoints(XML description,
                                           List<Object> injectionPoints) {

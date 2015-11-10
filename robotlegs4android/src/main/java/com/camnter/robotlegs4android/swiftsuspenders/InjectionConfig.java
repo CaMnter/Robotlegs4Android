@@ -27,6 +27,10 @@ public class InjectionConfig {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param request       request
+     * @param injectionName injectionName
+     */
     public InjectionConfig(Class<?> request, String injectionName) {
 
         this.request = request;
@@ -39,8 +43,8 @@ public class InjectionConfig {
      * Get the response
      * 获得响应
      *
-     * @param injector
-     * @return
+     * @param injector injector
+     * @return Object
      */
     public Object getResponse(Injector injector) {
         if (this.m_result != null) {
@@ -61,8 +65,8 @@ public class InjectionConfig {
      * Determine whether there was a response
      * 判断是否有响应
      *
-     * @param injector
-     * @return
+     * @param injector injector
+     * @return Boolean
      */
     public Boolean hasResponse(Injector injector) {
         if (this.m_result != null)
@@ -78,7 +82,7 @@ public class InjectionConfig {
      * Determine whether there was a own response
      * 判断是否有自己的响应
      *
-     * @return
+     * @return Boolean
      */
     public Boolean hasOwnResponse() {
         return this.m_result != null;
@@ -88,7 +92,7 @@ public class InjectionConfig {
      * Set the result(this.m_result)
      * 设置this.m_result
      *
-     * @param result
+     * @param result result
      */
     public void setResult(InjectionResult result) {
         if ((this.m_result != null) && (result != null)) {
@@ -109,7 +113,7 @@ public class InjectionConfig {
      * Set the injector(this.m_injector)
      * 设置this.m_injector
      *
-     * @param injector
+     * @param injector injector
      */
     public void setInjector(Injector injector) {
         this.m_injector = injector;

@@ -81,7 +81,6 @@ public interface IInjector {
      * {@inheritDoc}
      * Perform an injection into an object, satisfying all it's dependencies
      * 执行一个注入一个对象,满足所有的依赖项
-     * <p/>
      * The <code>IInjector</code> should throw an <code>Error</code> if it can't
      * satisfy all dependencies of the injectee.
      * 如果不能错误 满足所有依赖项的时候解析,IInjector应该抛出一个Error。
@@ -96,16 +95,13 @@ public interface IInjector {
      * constructor parameters if the used DI solution has support for
      * constructor injection
      * 创建一个对象的类,提供其依赖关系。如果使用构造函数参数DI解决方案支持构造函数注入。
-     * <p/>
      * Adapters for DI solutions that don't support constructor injection should
      * just create a new instance and perform setter and/ or method injection on
      * that.
      * 适配器DI的解决方案不支持构造函数注入只创建一个新的实例并进行setter注入和/或方法
-     * <p/>
      * NOTE: This method will always create a new instance. If you need to
      * retrieve an instance consider using <code>getInstance</code>
      * 注意:这个方法总是会创建一个新的实例。如果你需要检索实例考虑使用getInstance
-     * <p/>
      * The <code>IInjector</code> should throw an <code>Error</code> if it can't
      * satisfy all dependencies of the injectee.
      * 如果不能错误满足所有依赖项的时候解析,IInjector应该抛出一个Error。

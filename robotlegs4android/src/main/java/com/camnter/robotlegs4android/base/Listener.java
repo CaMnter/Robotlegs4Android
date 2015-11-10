@@ -70,7 +70,6 @@ public class Listener implements IListener {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IListener #onHandle}
      */
     @Override

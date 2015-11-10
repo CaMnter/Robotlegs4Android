@@ -16,16 +16,23 @@ public class ConstructorInjectionPoint extends MethodInjectionPoint {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param node     node
+     * @param clazz    clazz
+     * @param injector injector
+     */
     public ConstructorInjectionPoint(XML node, Class<?> clazz, Injector injector) {
         super(node, injector);
     }
 
     /**
-     * {@inheritDoc}
      * Apply the injection
      * 申请注入器
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionpoints.MethodInjectionPoint #applyInjection}
+     *
+     * @param target   target
+     * @param injector injector
+     * @return Object
      */
     @SuppressWarnings("unchecked")
     @Override
@@ -65,6 +72,8 @@ public class ConstructorInjectionPoint extends MethodInjectionPoint {
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionpoints.MethodInjectionPoint #initializeInjection}
      * Initialize the injection
      * 初始化注入器
+     *
+     * @param node node
      */
     @Override
     protected void initializeInjection(XML node) {

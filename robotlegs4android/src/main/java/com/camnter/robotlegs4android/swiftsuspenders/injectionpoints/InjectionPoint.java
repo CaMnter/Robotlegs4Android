@@ -12,6 +12,10 @@ public class InjectionPoint {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param node     node
+     * @param injector injector
+     */
     public InjectionPoint(XML node, Injector injector) {
         this.initializeInjection(node);
     }
@@ -21,14 +25,12 @@ public class InjectionPoint {
      * Apply the injection
      * 申请注入器
      *
-     * @param target
-     * @param injector
-     * @return
+     * @param target   target
+     * @param injector injector
+     * @return Object
      */
     public Object applyInjection(Object target, Injector injector) {
-
         return target;
-
     }
 
     /*******************************************************************************************
@@ -39,10 +41,9 @@ public class InjectionPoint {
      * Initialize the injection
      * 实例化注入器
      *
-     * @param node
+     * @param node node
      */
     protected void initializeInjection(XML node) {
-
     }
 
 }

@@ -17,14 +17,19 @@ public class InjectSingletonResult extends InjectionResult {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param responseType responseType
+     */
     public InjectSingletonResult(Class<?> responseType) {
         this.m_responseType = responseType;
     }
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionresults.InjectionResult #getResponse}
+     *
+     * @param injector injector
+     * @return Object
      */
     @Override
     public Object getResponse(Injector injector) {
@@ -41,8 +46,8 @@ public class InjectSingletonResult extends InjectionResult {
      * Create the Response
      * 创建响应
      *
-     * @param injector
-     * @return
+     * @param injector injector
+     * @return Object
      */
     private Object createResponse(Injector injector) {
         return injector.instantiate(this.m_responseType);

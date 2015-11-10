@@ -13,12 +13,12 @@ import com.camnter.robotlegs4android.core.IEventMap;
 public class Actor {
 
     /**
-     * @private
+     * private
      */
     protected IEventDispatcher _eventDispatcher;
 
     /**
-     * @private
+     * private
      */
     protected IEventMap _eventMap;
 
@@ -72,7 +72,7 @@ public class Actor {
      * @param event The <code>Event</code> to dispatch on the
      *              <code>IContext</code>'s <code>IEventDispatcher</code>
      *              Event分派IContext的IEventDispatcher
-     * @return
+     * @return Boolean
      */
     protected Boolean dispatch(Event event) {
         if (this.getEventDispatcher().hasEventListener(event.getType()))

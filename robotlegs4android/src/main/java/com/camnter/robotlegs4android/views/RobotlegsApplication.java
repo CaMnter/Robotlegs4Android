@@ -33,11 +33,10 @@ public abstract class RobotlegsApplication extends Application implements IAppli
     /**
      * Please write your custom robotlegs4android context
      * 请填写你自定义的robotlegs4android context
-     * <p/>
      * TODO After write your custom robotlegs4android context, please don't call this method
      * TODO 填写完你自定义的robotlegs4android context后，请不要调用此方法
      *
-     * @return
+     * @return Context
      */
     protected abstract Context getMvcContextInstance();
 

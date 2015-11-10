@@ -9,27 +9,27 @@ import com.camnter.robotlegs4android.core.IInjector;
 public class ViewMapBase {
 
     /**
-     * @private
+     * private
      */
     protected Boolean _enabled = true;
 
     /**
-     * @private
+     * private
      */
     protected Object _contextView;
 
     /**
-     * @private
+     * private
      */
     protected IInjector injector;
 
     /**
-     * @private
+     * private
      */
     protected Boolean useCapture;
 
     /**
-     * @private
+     * private
      */
     protected int viewListenerCount;
 
@@ -122,12 +122,10 @@ public class ViewMapBase {
 
     /**
      * Add the listeners
-     * <p/>
      * 添加listeners时
-     * <p/>
      * {@inheritDoc}
      *
-     * @private
+     * private
      */
     protected void addListeners() {
 
@@ -138,7 +136,7 @@ public class ViewMapBase {
      * Remove the listeners
      * 删除listeners时
      *
-     * @private
+     * private
      */
     protected void removeListeners() {
 
@@ -149,7 +147,7 @@ public class ViewMapBase {
      * when the view be added
      * 当view被添加时
      *
-     * @private
+     * private
      */
     protected void onViewAdded(Event e) {
 

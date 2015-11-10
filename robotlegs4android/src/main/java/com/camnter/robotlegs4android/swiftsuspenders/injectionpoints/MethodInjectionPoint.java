@@ -29,18 +29,24 @@ public class MethodInjectionPoint extends InjectionPoint {
      * public methods *
      *******************************************************************************************/
 
+    /**
+     * @param node     node
+     * @param injector injector
+     */
     public MethodInjectionPoint(XML node, Injector injector) {
-
         super(node, injector);
-
     }
+
 
     /**
      * {@inheritDoc}
      * Apply the injection
      * 申请注入器
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionpoints.InjectionPoint #applyInjection}
+     *
+     * @param target   target
+     * @param injector injector
+     * @return Object
      */
     @SuppressWarnings("unchecked")
     @Override
@@ -73,6 +79,8 @@ public class MethodInjectionPoint extends InjectionPoint {
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionpoints.InjectionPoint #initializeInjection}
      * Initialize the injection
      * 初始化注入器
+     *
+     * @param node node
      */
     @Override
     protected void initializeInjection(XML node) {
@@ -90,8 +98,8 @@ public class MethodInjectionPoint extends InjectionPoint {
      * Gather the parameters
      * 收集参数
      *
-     * @param methodNode
-     * @param nameArgs
+     * @param methodNode methodNode
+     * @param nameArgs   nameArgs
      */
     protected void gatherParameters(XML methodNode, List<XML> nameArgs) {
         this._parameterInjectionConfigs = new ArrayList<Object>();
@@ -125,12 +133,11 @@ public class MethodInjectionPoint extends InjectionPoint {
 
     /**
      * Gather the value of the parameter
-     * <p/>
      * 收集参数的值
      *
-     * @param target
-     * @param injector
-     * @return
+     * @param target   target
+     * @param injector injector
+     * @return Object[]
      */
     protected Object[] gatherParameterValues(Object target, Injector injector) {
         List<Object> parameters = new ArrayList<Object>();

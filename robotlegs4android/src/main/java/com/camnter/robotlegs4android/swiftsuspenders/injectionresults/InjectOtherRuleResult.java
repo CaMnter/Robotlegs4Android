@@ -17,6 +17,9 @@ public class InjectOtherRuleResult extends InjectionResult {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param rule rule
+     */
     public InjectOtherRuleResult(InjectionConfig rule) {
         this.m_rule = rule;
     }
@@ -24,6 +27,9 @@ public class InjectOtherRuleResult extends InjectionResult {
     /**
      * {@inheritDoc}
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionresults.InjectionResult #getResponse}
+     *
+     * @param injector injector
+     * @return Object
      */
     @Override
     public Object getResponse(Injector injector) {

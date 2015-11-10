@@ -23,7 +23,6 @@ public class MediatorBase implements IMediator {
 
     /**
      * Internal
-     * <p/>
      * This Mediator's View Component - used by the RobotLegs MVCS framework
      * internally. You should declare a dependency on a concrete view component
      * in your implementation instead of working with this property
@@ -33,7 +32,6 @@ public class MediatorBase implements IMediator {
 
     /**
      * Internal
-     * <p/>
      * In the case of differed instantiation, onRemove might get called before
      * onCreationComplete has fired. This here Boolean helps us track that
      * scenario.
@@ -139,7 +137,6 @@ public class MediatorBase implements IMediator {
     /**
      * Flex framework work-around part #3
      * Flex框架的变通办法部分 #3
-     * <p/>
      * Checks for availability of the Flex framework by trying to get the class
      * for UIComponent.
      * 检查可用性的Flex框架试图获得UIComponent类。
@@ -166,7 +163,6 @@ public class MediatorBase implements IMediator {
     /**
      * Flex framework work-around part #4
      * Flex框架的变通办法部分 #4
-     * <p/>
      * <code>FlexEvent.CREATION_COMPLETE</code> handler for this Mediator's View
      * Component
      *

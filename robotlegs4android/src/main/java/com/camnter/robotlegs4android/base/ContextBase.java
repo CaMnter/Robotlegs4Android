@@ -18,7 +18,6 @@ public class ContextBase implements IContext, IEventDispatcher {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IEventDispatcher #addEventListener}
      */
     @Override

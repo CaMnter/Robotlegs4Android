@@ -42,6 +42,9 @@ public class ContextError extends Error {
 
     /************************************************************************************/
 
+    /**
+     * @param message message
+     */
     public ContextError(String message) {
         super(message);
     }

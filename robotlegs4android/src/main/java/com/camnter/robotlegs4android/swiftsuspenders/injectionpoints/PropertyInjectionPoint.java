@@ -21,6 +21,10 @@ public class PropertyInjectionPoint extends InjectionPoint {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param node     node
+     * @param injector injector
+     */
     public PropertyInjectionPoint(XML node, Injector injector) {
         super(node, null);
     }

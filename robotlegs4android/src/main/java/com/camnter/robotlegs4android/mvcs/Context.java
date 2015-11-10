@@ -34,7 +34,7 @@ public abstract class Context extends ContextBase implements IContext {
     protected IMediatorMap _mediatorMap;
 
     /**
-     * @private
+     * private
      */
     protected IViewMap _viewMap;
 
@@ -45,7 +45,6 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * Abstract Context Implementation
      * 抽象的背景下实现
-     * </p>
      * Extend this class to create a Framework or Application context
      * 扩展这个类来创建一个框架或应用程序上下文
      *
@@ -73,11 +72,9 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * The Startup Hook
      * 启动
-     * <p/>
      * Override this in your Application context
      * 重写在你的应用程序上下文
-     *
-     * @event Startup complete ContextEvent.STARTUP_COMPLETE Dispatched at the
+     * event Startup complete ContextEvent.STARTUP_COMPLETE Dispatched at the
      * end of the <code>startup()</code> method's execution. This is
      * often used to trigger startup/bootstrapping commands by wiring
      * them to this event and calling <code>super.startup()</code> in the
@@ -94,15 +91,12 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * set your mvc relation
      * 设置你的mvc关系
-     * <p/>
      * Add the view map
      * Link the View and View the corresponding Mediator
      * 添加view映射
      * 将View 和 View 对应的 Mediator 联系起来
-     * <p/>
      * Injection as an singleton, instantiate the singleton
      * 注入实例，实例化单例
-     * <p/>
      * Add Event (Event) with the connection of the Command
      * 添加事件（Event）与Command的联系
      */
@@ -111,7 +105,6 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * The Shutdown Hook
      * 关闭
-     * <p/>
      * Override this in your Application context
      * 重写在你的应用程序上下文
      */
@@ -122,7 +115,6 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * The <code>DisplayObjectContainer</code> that scopes this
      * <code>IContext</code>
-     * <p/>
      * IContext范围的DisplayObjectContainer
      *
      * @return The Context View
@@ -133,10 +125,9 @@ public abstract class Context extends ContextBase implements IContext {
 
     /**
      * Set The ContextView
-     * <p/>
      * 设置ContextView
      *
-     * @param value
+     * @param value value
      */
     public void setContextView(View value) {
         if (value == this._contextView)
@@ -168,7 +159,7 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @param value
+     * @param value value
      */
     protected void setInjector(IInjector value) {
         this._injector = value;
@@ -187,8 +178,8 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @param value
-     * @private
+     * @param value value
+     *              private
      */
     protected void setReflector(IReflector value) {
         this._reflector = value;
@@ -197,7 +188,7 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * The <code>ICommandMap</code> for this <code>IContext</code>
      *
-     * @return
+     * @return ICommandMap
      */
     protected ICommandMap getCommandMap() {
         if (this._commandMap != null) {
@@ -210,7 +201,8 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @private
+     * private
+     * @param value value
      */
     protected void setCommandMap(ICommandMap value) {
         this._commandMap = value;
@@ -230,8 +222,8 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @param value
-     * @private
+     * @param value value
+     *              private
      */
     protected void setMediatorMap(IMediatorMap value) {
         this._mediatorMap = value;
@@ -240,7 +232,7 @@ public abstract class Context extends ContextBase implements IContext {
     /**
      * The <code>IViewMap</code> for this <code>IContext</code>
      *
-     * @return
+     * @return IViewMap
      */
     protected IViewMap getViewMap() {
         if (this._viewMap != null) {
@@ -253,7 +245,7 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @param value
+     * @param value value
      */
     protected void setViewMap(IViewMap value) {
         this._viewMap = value;
@@ -268,7 +260,6 @@ public abstract class Context extends ContextBase implements IContext {
      * Override this in your Framework context to change the default
      * configuration
      * 覆写这个在你的框架Context去改变默认配置
-     * <p/>
      * Beware of collisions in your container
      * 谨防碰撞在你的容器
      */
@@ -291,7 +282,7 @@ public abstract class Context extends ContextBase implements IContext {
     // ---------------------------------------------------------------------
 
     /**
-     * @private
+     * private
      */
     protected void checkAutoStartup() {
         if (this._autoStartup && (this.getContextView() != null)) {
@@ -300,7 +291,8 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @private
+     * private
+     * @return IInjector
      */
     protected IInjector createInjector() {
         IInjector injector = new SwiftSuspendersInjector(null);
@@ -308,16 +300,22 @@ public abstract class Context extends ContextBase implements IContext {
     }
 
     /**
-     * @private
+     * private
      */
     protected IInjector createChildInjector() {
         return this.getInjector().createChild();
     }
 
+    /**
+     * @param view view
+     */
     public void injectMediator(Object view) {
         this.getMediatorMap().addMediator(view);
     }
 
+    /**
+     * @param view view
+     */
     public void removeMediator(Object view) {
         this.getMediatorMap().unInjectMediator(view);
     }

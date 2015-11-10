@@ -18,9 +18,9 @@ public interface IEventMap {
      * @param listener         The <code>Event</code> handler
      * @param eventClass       Optional Event class for a stronger mapping. Defaults to
      *                         <code>Event</code>. 可选事件类更强的映射。默认值为Event
-     * @param useCapture
-     * @param priority
-     * @param useWeakReference
+     * @param useCapture       useCapture
+     * @param priority         priority
+     * @param useWeakReference useWeakReference
      */
     public void mapListener(IEventDispatcher dispatcher, String type,
                             IListener listener, Class<?> eventClass, Boolean useCapture,
@@ -37,7 +37,7 @@ public interface IEventMap {
      * @param listener   The <code>Event</code> handler
      * @param eventClass Optional Event class for a stronger mapping. Defaults to
      *                   <code>Event</code>. 可选事件类更强的映射。默认值为Event。
-     * @param useCapture
+     * @param useCapture useCapture
      */
     public void unmapListener(IEventDispatcher dispatcher, String type,
                               IListener listener, Class<?> eventClass, Boolean useCapture);

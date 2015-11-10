@@ -22,12 +22,12 @@ public class Mediator extends MediatorBase {
     public IMediatorMap mediatorMap;
 
     /**
-     * @private
+     * private
      */
     protected IEventDispatcher _eventDispatcher;
 
     /**
-     * @private
+     * private
      */
     protected IEventMap _eventMap;
 
@@ -101,7 +101,7 @@ public class Mediator extends MediatorBase {
      *
      * @param event The Event to dispatch on the <code>IContext</code>'s
      *              <code>IEventDispatcher</code> Event分派IContext的IEventDispatcher
-     * @return
+     * @return Boolean
      */
     protected Boolean dispatch(Event event) {
         if (this.getEventDispatcher().hasEventListener(event.getType()))
@@ -114,12 +114,12 @@ public class Mediator extends MediatorBase {
      * Syntactical sugar for mapping a listener to the
      * <code>viewComponent</code>
      *
-     * @param type
-     * @param listener
-     * @param eventClass
-     * @param useCapture
-     * @param priority
-     * @param useWeakReference
+     * @param type             type
+     * @param listener         listener
+     * @param eventClass       eventClass
+     * @param useCapture       useCapture
+     * @param priority         priority
+     * @param useWeakReference useWeakReference
      */
     protected void addViewListener(String type, IListener listener,
                                    Class<?> eventClass, Boolean useCapture, int priority,
@@ -133,10 +133,10 @@ public class Mediator extends MediatorBase {
      * Syntactical sugar for mapping a listener from the
      * <code>viewComponent</code>
      *
-     * @param type
-     * @param listener
-     * @param eventClass
-     * @param useCapture
+     * @param type       type
+     * @param listener   listener
+     * @param eventClass eventClass
+     * @param useCapture useCapture
      */
     protected void removeViewListener(String type, IListener listener,
                                       Class<?> eventClass, Boolean useCapture) {
@@ -148,12 +148,12 @@ public class Mediator extends MediatorBase {
      * Syntactical sugar for mapping a listener to an
      * <code>IEventDispatcher</code>
      *
-     * @param type
-     * @param listener
-     * @param eventClass
-     * @param useCapture
-     * @param priority
-     * @param useWeakReference
+     * @param type             type
+     * @param listener         listener
+     * @param eventClass       eventClass
+     * @param useCapture       useCapture
+     * @param priority         priority
+     * @param useWeakReference useWeakReference
      */
     protected void addContextListener(String type, IListener listener,
                                       Class<?> eventClass, Boolean useCapture, int priority,
@@ -166,10 +166,10 @@ public class Mediator extends MediatorBase {
      * Syntactical sugar for unmapping a listener from an
      * <code>IEventDispatcher</code>
      *
-     * @param type
-     * @param listener
-     * @param eventClass
-     * @param useCapture
+     * @param type       type
+     * @param listener   listener
+     * @param eventClass eventClass
+     * @param useCapture useCapture
      */
     protected void removeContextListener(String type, IListener listener,
                                          Class<?> eventClass, Boolean useCapture) {

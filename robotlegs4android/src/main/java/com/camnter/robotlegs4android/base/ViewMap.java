@@ -17,17 +17,17 @@ import java.util.WeakHashMap;
 public class ViewMap extends ViewMapBase implements IViewMap {
 
     /**
-     * @private
+     * private
      */
     protected ArrayList<String> mappedPackages;
 
     /**
-     * @private
+     * private
      */
     protected Map<String, Object> mappedTypes;
 
     /**
-     * @private
+     * private
      */
     protected Map<String, Object> injectedViews;
 
@@ -143,7 +143,6 @@ public class ViewMap extends ViewMapBase implements IViewMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IViewMap #hasPackage}
      */
     @Override
@@ -159,7 +158,7 @@ public class ViewMap extends ViewMapBase implements IViewMap {
      * {@inheritDoc}
      * {@linkplain com.camnter.robotlegs4android.core.IViewMap #addListeners}
      *
-     * @private
+     * private
      */
     @Override
     protected void addListeners() {
@@ -180,7 +179,7 @@ public class ViewMap extends ViewMapBase implements IViewMap {
      * {@inheritDoc}
      * {@linkplain com.camnter.robotlegs4android.core.IViewMap #removeListeners}
      *
-     * @private
+     * private
      */
     @Override
     protected void removeListeners() {
@@ -217,7 +216,7 @@ public class ViewMap extends ViewMapBase implements IViewMap {
      * {@inheritDoc}
      * {@linkplain com.camnter.robotlegs4android.core.IViewMap #onViewAdded}
      *
-     * @private
+     * private
      */
     @Override
     protected void onViewAdded(Event e) {

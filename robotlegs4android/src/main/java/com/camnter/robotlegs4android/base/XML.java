@@ -126,7 +126,6 @@ public class XML {
 
     /**
      * According to the name list of child nodes
-     * <p/>
      * 根据name,获取相同name子节点的列表
      *
      * @param name XML's name XML节点的name

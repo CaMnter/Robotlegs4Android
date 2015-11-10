@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c12ee4-ac84-4042-987c-8a24591ab515" name="Default" comment="" />
+    <list default="true" id="202646b6-4ece-4bfb-8931-05fd55e5e25c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/robotlegs4android/robotlegs4android.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Robotlegs4Android.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +68,29 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Robotlegs4Android" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40871936">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,10 +114,6 @@
               <ExternalProjectPojo>
                 <option name="name" value=":robotlegs4android" />
                 <option name="path" value="$PROJECT_DIR$/robotlegs4android" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":oldsevenframe" />
-                <option name="path" value="$PROJECT_DIR$/oldsevenframe" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="Robotlegs4Android" />
@@ -1263,52 +1326,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/oldsevenframe">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':oldsevenframe'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':oldsevenframe'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':oldsevenframe'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':oldsevenframe'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':oldsevenframe'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':oldsevenframe'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':oldsevenframe'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/oldsevenframe" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/robotlegs4android">
           <value>
             <list>
@@ -1872,7 +1889,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5787550698000" />
+        <entry key="$PROJECT_DIR$" value="5788157047000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2059,93 +2076,6 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/oldsevenframe">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.3.0/gradle-1.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.3.0/gradle-1.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.3.0/gradle-core-1.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.3.0/gradle-core-1.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.3.0/builder-1.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.3.0/builder-1.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.3.0/lint-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.3.0/lint-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.3.0/sdk-common-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.3.0/sdk-common-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.3.0/common-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.3.0/common-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.3.0/builder-model-1.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.3.0/builder-model-1.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.3.0/ddmlib-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.3.0/ddmlib-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.3.0/sdklib-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.3.0/sdklib-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.3.0/manifest-merger-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.3.0/manifest-merger-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.3.0/builder-test-api-1.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.3.0/builder-test-api-1.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.3.0/lint-checks-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.3.0/lint-checks-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.3.0/annotations-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.3.0/annotations-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.3.0/dvlib-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.3.0/dvlib-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.3.0/layoutlib-api-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.3.0/layoutlib-api-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.3.0/lint-api-24.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.3.0/lint-api-24.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$/oldsevenframe" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -2368,11 +2298,11 @@
       <projects_view />
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/robotlegs4android/build.gradle" />
+      </list>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -2380,10 +2310,10 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1397" />
+    <option name="width" value="1396" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2426,10 +2356,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robotlegs4Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Robotlegs4Android" />
@@ -2455,8 +2395,6 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA39200CXG" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2612,41 +2550,41 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77c12ee4-ac84-4042-987c-8a24591ab515" name="Default" comment="" />
-      <created>1447145194868</created>
+      <changelist id="202646b6-4ece-4bfb-8931-05fd55e5e25c" name="Default" comment="" />
+      <created>1447161834981</created>
       <option name="number" value="Default" />
-      <updated>1447145194868</updated>
+      <updated>1447161834981</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1397" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1396" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.348226" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25756457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -2659,10 +2597,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.40871936">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
         </state>
       </provider>

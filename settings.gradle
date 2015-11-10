@@ -1,1 +1,1 @@
-include ':app', ':robotlegs4android', ':oldsevenframe'
+include ':app', ':robotlegs4android'

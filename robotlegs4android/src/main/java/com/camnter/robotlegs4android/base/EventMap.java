@@ -19,12 +19,12 @@ public class EventMap implements IEventMap {
     protected IEventDispatcher eventDispatcher;
 
     /**
-     * @private
+     * private
      */
     protected Boolean _dispatcherListeningEnabled = true;
 
     /**
-     * @private
+     * private
      */
     protected List<Object> listeners;
 
@@ -130,7 +130,7 @@ public class EventMap implements IEventMap {
      * @param listener   The <code>Event</code> handler
      * @param eventClass Optional Event class for a stronger mapping. Defaults to
      *                   <code>Event</code>. 可选事件类更强的映射。默认值为Event
-     * @param useCapture
+     * @param useCapture useCapture
      */
     @Override
     public void unmapListener(IEventDispatcher dispatcher, String type,
@@ -156,11 +156,8 @@ public class EventMap implements IEventMap {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IEventMap #unmapListeners}
-     * <p/>
      * Removes all listeners registered through <code>mapListener</code>
-     * <p/>
      * 通过mapListener删除所有的侦听器注册
      */
     @Override
@@ -227,8 +224,8 @@ public class EventMap implements IEventMap {
      * 事件处理程序
      *
      * @param event              The <code>Event</code> Event事件类型
-     * @param listener
-     * @param originalEventClass
+     * @param listener           listener
+     * @param originalEventClass originalEventClass
      */
     protected void routeEventToListener(Event event, IListener listener, Class<?> originalEventClass) {
         if (originalEventClass.isInstance(event)) {

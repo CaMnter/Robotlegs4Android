@@ -151,7 +151,6 @@ public class EventDispatcher implements IEventDispatcher {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IEventDispatcher #removeEventListener}
      */
     @Override
@@ -183,7 +182,6 @@ public class EventDispatcher implements IEventDispatcher {
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.core.IEventDispatcher #willTrigger}
      */
     @Override

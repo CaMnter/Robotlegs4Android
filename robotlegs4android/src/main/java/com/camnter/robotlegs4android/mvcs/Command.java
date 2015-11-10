@@ -45,7 +45,7 @@ public abstract class Command {
      * @param event The <code>Event</code> to dispatch on the
      *              <code>IContext</code>'s <code>IEventDispatcher</code>
      *              Event分派IContext的IEventDispatcher
-     * @return
+     * @return Boolean
      */
     protected Boolean dispatch(Event event) {
         if (this.eventDispatcher.hasEventListener(event.getType()))

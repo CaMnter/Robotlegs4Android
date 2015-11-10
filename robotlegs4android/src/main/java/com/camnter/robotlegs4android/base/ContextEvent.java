@@ -24,6 +24,9 @@ public class ContextEvent extends Event {
 
     /************************************************************************************/
 
+    /**
+     * @param type type
+     */
     public ContextEvent(String type) {
         super(type);
     }

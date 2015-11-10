@@ -42,7 +42,6 @@ public interface IMediatorMap {
      * {@inheritDoc}
      * Create an instance of a mapped <code>IMediator</code>
      * 创建一个实例的映射 IMediator
-     * <p/>
      * This will instantiate and register a Mediator for a given View Component.
      * Mediator dependencies will be automatically resolved.
      * 这将实例化并注册一个中介对于一个给定的视图组件。中介的依赖性会自动解决。
@@ -57,7 +56,6 @@ public interface IMediatorMap {
      * {@inheritDoc}
      * Manually register an <code>IMediator</code> instance
      * 手动注册一个IMediator实例
-     * <p/>
      * NOTE: Registering a Mediator will NOT inject its dependencies. It is
      * assumed that dependencies are already satisfied.
      * 注意:注册一个中介不会注入依赖项。这是 假设依赖已经满意了。

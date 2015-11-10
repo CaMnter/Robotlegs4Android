@@ -9,7 +9,6 @@ public interface IMediator {
     /**
      * {@inheritDoc}
      * 注册前
-     * <p/>
      * Should be invoked by the <code>IMediatorMap</code> during
      * <code>IMediator</code> registration
      * 在IMediator注册时,应该被IMediatorMap调用。
@@ -19,11 +18,9 @@ public interface IMediator {
     /**
      * {@inheritDoc}
      * 注册时
-     * <p/>
      * Should be invoked by the <code>IMediator</code> itself when it is ready
      * to be interacted with
      * 在本身当它准备好了与之交互时,应该被IMediator调用。
-     * <p/>
      * Override and place your initialization code here
      * 覆盖,这里的初始化代码
      */
@@ -32,7 +29,6 @@ public interface IMediator {
     /**
      * {@inheritDoc}
      * 删除前
-     * <p/>
      * Invoked when the <code>IMediator</code> has been removed by the
      * <code>IMediatorMap</code>
      * IMediator 被删除前，被IMediatorMap调用.
@@ -42,11 +38,9 @@ public interface IMediator {
     /**
      * {@inheritDoc}
      * 删除时
-     * <p/>
      * Should be invoked by the <code>IMediator</code> itself when it is ready
      * to for cleanup
      * 在本身当它准备好了清理时,应该被IMediator调用。
-     * <p/>
      * Override and place your cleanup code here
      * 覆盖,这里的初始化代码
      */

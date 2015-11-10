@@ -16,14 +16,19 @@ public class InjectClassResult extends InjectionResult {
     /*******************************************************************************************
      * public methods *
      *******************************************************************************************/
+    /**
+     * @param responseType responseType
+     */
     public InjectClassResult(Class<?> responseType) {
         this.m_responseType = responseType;
     }
 
     /**
      * {@inheritDoc}
-     * <p/>
      * {@linkplain com.camnter.robotlegs4android.swiftsuspenders.injectionresults.InjectionResult #getResponse}
+     *
+     * @param injector injector
+     * @return Object
      */
     @Override
     public Object getResponse(Injector injector) {
