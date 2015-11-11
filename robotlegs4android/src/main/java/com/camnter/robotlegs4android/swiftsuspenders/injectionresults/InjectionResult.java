@@ -23,8 +23,8 @@ public class InjectionResult {
      * Get the Response
      * 获取响应
      *
-     * @param injector
-     * @return
+     * @param injector injector
+     * @return Object
      */
     public Object getResponse(Injector injector) {
         return null;

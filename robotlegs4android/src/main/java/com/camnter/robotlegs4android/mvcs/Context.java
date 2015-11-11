@@ -210,6 +210,7 @@ public abstract class Context extends ContextBase implements IContext {
 
     /**
      * The <code>IMediatorMap</code> for this <code>IContext</code>
+     * @return IMediatorMap
      */
     protected IMediatorMap getMediatorMap() {
         if (this._mediatorMap != null) {
@@ -301,6 +302,7 @@ public abstract class Context extends ContextBase implements IContext {
 
     /**
      * private
+     * @return IInjector
      */
     protected IInjector createChildInjector() {
         return this.getInjector().createChild();
