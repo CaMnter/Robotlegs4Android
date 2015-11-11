@@ -57,7 +57,7 @@ public abstract class RobotlegsFragment extends Fragment {
                     EventDispatcher.setDispatcher(this.getClass().getSimpleName() + this.hashCode() + "");
                 } catch (Exception e) {
                     e.printStackTrace();
-                    throw new RuntimeException("Please create a custom RobotlegsApplication");
+                    throw new RuntimeException("Please create a custom RobotlegsApplication and fill in the getMvcContextInstance() method");
                 }
                 this.onCreatingView(this.self);
             }
@@ -97,7 +97,7 @@ public abstract class RobotlegsFragment extends Fragment {
             EventDispatcher.removeDispatcher(this.getClass().getSimpleName() + this.hashCode() + "");
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("Please create a custom RobotlegsApplication");
+            throw new RuntimeException("Please create a custom RobotlegsApplication and fill in the getMvcContextInstance() method");
         }
         super.onDetach();
     }

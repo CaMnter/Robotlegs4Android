@@ -34,7 +34,7 @@ public abstract class RobotlegsActivity extends AppCompatActivity {
             EventDispatcher.setDispatcher(this.getClass().getSimpleName() + this.hashCode() + "");
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("Please create a custom RobotlegsApplication");
+            throw new RuntimeException("Please create a custom RobotlegsApplication and fill in the getMvcContextInstance() method");
         }
     }
 
@@ -49,7 +49,7 @@ public abstract class RobotlegsActivity extends AppCompatActivity {
             ((IApplication) this.getApplication()).getMvcContext().removeMediator(this);
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("Please create a custom RobotlegsApplication");
+            throw new RuntimeException("Please create a custom RobotlegsApplication and fill in the getMvcContextInstance() method");
         }
         super.onDestroy();
     }

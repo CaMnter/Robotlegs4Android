@@ -50,7 +50,7 @@ public abstract class RobotlegsFragmentActivity extends AppCompatActivity implem
             EventDispatcher.setDispatcher(this.getClass().getSimpleName() + this.hashCode() + "");
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("Please create a custom RobotlegsApplication");
+            throw new RuntimeException("Please create a custom RobotlegsApplication and fill in the getMvcContextInstance() method");
         }
     }
 
@@ -65,7 +65,7 @@ public abstract class RobotlegsFragmentActivity extends AppCompatActivity implem
             EventDispatcher.removeDispatcher(this.getClass().getSimpleName() + this.hashCode() + "");
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("Please create a custom RobotlegsApplication");
+            throw new RuntimeException("Please create a custom RobotlegsApplication and fill in the getMvcContextInstance() method");
         }
         super.onDestroy();
     }
@@ -122,7 +122,7 @@ public abstract class RobotlegsFragmentActivity extends AppCompatActivity implem
      * Take care of calling onBackPressed() for pre-Eclair platforms.
      *
      * @param keyCode keyCode
-     * @param event event
+     * @param event   event
      * @return boolean
      */
     @Override
