@@ -25,4 +25,5 @@ public class LoginEvent extends Event {
     public LoginEvent(String type) {
         super(type);
     }
+
 }

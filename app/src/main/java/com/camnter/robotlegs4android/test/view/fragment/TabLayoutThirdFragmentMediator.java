@@ -15,13 +15,12 @@ import com.camnter.robotlegs4android.core.IMediator;
 import com.camnter.robotlegs4android.mvcs.Mediator;
 import com.camnter.robotlegs4android.test.R;
 import com.camnter.robotlegs4android.test.event.LoginEvent;
-import com.camnter.robotlegs4android.test.widget.decorator.DividerItemDecoration;
 
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Description：
+ * Description：TabLayoutThirdFragmentMediator
  * Created by：CaMnter
  * Time：2015-11-10 14:28
  */

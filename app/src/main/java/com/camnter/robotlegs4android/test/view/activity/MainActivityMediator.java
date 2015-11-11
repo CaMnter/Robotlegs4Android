@@ -25,8 +25,6 @@ import com.camnter.robotlegs4android.test.view.fragment.TabLayoutThirdFragment;
  */
 public class MainActivityMediator extends Mediator {
 
-    private static final String TAG = "MainActivityMediator";
-
     private MainActivity activity;
 
     private TabLayout tabLayout;

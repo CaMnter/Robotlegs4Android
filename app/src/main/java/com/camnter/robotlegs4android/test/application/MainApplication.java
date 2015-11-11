@@ -21,7 +21,6 @@ public class MainApplication extends RobotlegsApplication {
     /**
      * Please write your custom robotlegs4android context
      * 请填写你自定义的robotlegs4android context
-     * <p/>
      * TODO After write your custom robotlegs4android context, please don't call this method
      * TODO 填写完你自定义的robotlegs4android context后，请不要调用此方法
      *

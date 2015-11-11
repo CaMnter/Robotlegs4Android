@@ -26,7 +26,7 @@ public class UserModel extends Actor {
         LoginEvent loginEvent = new LoginEvent(LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW);
         loginEvent.user = user;
         this.dispatch(loginEvent);
-        this.getEventDispatcher().dispatchEvent(new LoginEvent(LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_CONTROLLER));
+        this.dispatch(new LoginEvent(LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_CONTROLLER));
     }
 
     public boolean logout(){
