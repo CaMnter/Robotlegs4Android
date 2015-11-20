@@ -57,6 +57,7 @@ public class MainActivityMediator extends Mediator {
         };
         MainActivityAdapter adapter = new MainActivityAdapter(this.activity.getSupportFragmentManager(), fragments, tabTitles);
         this.viewPager.setAdapter(adapter);
+        this.viewPager.setOffscreenPageLimit(adapter.getCount());
         this.tabLayout.setupWithViewPager(this.viewPager);
     }
 
