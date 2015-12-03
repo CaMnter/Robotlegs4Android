@@ -8,10 +8,10 @@ Robotlegs4Androird
 
 This is Robotlegs4Android MVC flow chart（这是Robotlegs4Android 的 MVC 流程图）。
 
-- **EventDispatcher To complete the communication between each layer（EventDispatcher 完成各层之间的通信）。**
-- **Mediator agent business View layer, View layer only shows a simple lifecycle callback methods（Mediator 代理 View 层的业务，View层只显示简单的生命周期回调方法）。**
-- **Command as a Controller layer, send it to the View of corresponding processing business（Command 作为 Controller 层，对 View 传过来的业务进行相应处理）。**
-- **The Actor as the Model layer, to provide the DB request for the Command, including the SQLite or network requests.（Actor 作为 Model 层，为 Command 提供 DB 的请求，包括SQLite 或 网络请求。）**
+- **EventDispatcher To complete the communication between each layer .   （EventDispatcher 完成各层之间的通信）。**
+- **Mediator agent business View layer, View layer only shows a simple lifecycle callback methods  （Mediator 代理 View 层的业务，View层只显示简单的生命周期回调方法）。**
+- **Command as a Controller layer, send it to the View of corresponding processing business  （Command 作为 Controller 层，对 View 传过来的业务进行相应处理）。**
+- **The Actor as the Model layer, to provide the DB request for the Command, including the SQLite or network requests.  （Actor 作为 Model 层，为 Command 提供 DB 的请求，包括SQLite 或 网络请求。）**
 
 ![robotlegs4android_mvc](https://github.com/CaMnter/Robotlegs4Android/raw/master/readme/robotlegs4android_mvc.jpg)
 
@@ -40,7 +40,8 @@ dependencies {
 
 `extends Actor`
 
-Define a Robotlegs4Android Model object, only needs to extends the Actor.（定义一个Robotlegs4Android Model对象，只需要继承 **Actor** 即可）。
+Define a Robotlegs4Android Model object, only needs to extends the Actor. 
+定义一个Robotlegs4Android Model对象，只需要继承 **Actor** 即可）。
 
 **UserModel**
 ```Java
@@ -86,10 +87,11 @@ public class User implements Serializable {
 
 ### Robotlegs4Android Activity
 
-- **If you don't need this Activity fragments（如果你这个Activity不需要Fragment）。** `extends RobotlegsActivity`。
-- **If you need this Activity fragments（如果你这个Activity需要Fragment。）** `extends RobotlegsFragmentActivity`。
+- **If you don't need this Activity fragments  （如果你这个Activity不需要Fragment）。** `extends RobotlegsActivity`。
+- **If you need this Activity fragments  （如果你这个Activity需要Fragment。）** `extends RobotlegsFragmentActivity`。
 
-**MainActivity** （Look really is very simple - 看起来真的很简单）
+**MainActivity** 
+（Look really is very simple - 看起来真的很简单）
 ```Java
 public class MainActivity extends RobotlegsFragmentActivity {
 
@@ -112,7 +114,8 @@ public class MainActivity extends RobotlegsFragmentActivity {
 }
 ```
 
-**MainActivityMediator**（Here to deal with the Activity of things to do - 这里处理Activity要做的事情）
+**MainActivityMediator**  
+（Here to deal with the Activity of things to do - 这里处理Activity要做的事情）
 ```Java
 public class MainActivityMediator extends Mediator {
 
@@ -161,7 +164,8 @@ public class MainActivityMediator extends Mediator {
 
 `extends RobotlegsFragment`
 
-**TabLayoutFirstFragment**（Look really is very simple - 看起来真的很简单）
+**TabLayoutFirstFragment**  
+（Look really is very simple - 看起来真的很简单）
 ```Java
 public class TabLayoutFirstFragment extends RobotlegsFragment {
 
@@ -189,7 +193,8 @@ public class TabLayoutFirstFragment extends RobotlegsFragment {
 }
 ```
 
-**TabLayoutFirstFragmentMediator**（Deal with fragments of things to do here - 这里处理Fragment要做的事情）
+**TabLayoutFirstFragmentMediator**   
+（Deal with fragments of things to do here - 这里处理Fragment要做的事情）
 ```Java
 public class TabLayoutFirstFragmentMediator extends Mediator implements View.OnClickListener {
 
@@ -248,7 +253,8 @@ public class TabLayoutFirstFragmentMediator extends Mediator implements View.OnC
 
 `extends com.camnter.robotlegs4android.base.Event`
 
-In order to the communication between each layer, define an Event type（为了各个层之间的通信，定义一个Event类型）。
+In order to the communication between each layer, define an Event type  
+（为了各个层之间的通信，定义一个Event类型）。
 
 **LoginEvent**
 ```Java
@@ -279,7 +285,8 @@ public class LoginEvent extends Event {
 
 `extends Command`
 
-With communication, nature also should have the Controller to deal with, sent to the Controller.（有了通讯，自然也要有Controller去处理，发向Controller的事件）。
+With communication, nature also should have the Controller to deal with, sent to the Controller.  
+（有了通讯，自然也要有Controller去处理，发向Controller的事件）。
 
 **Login**
 ```Java
@@ -326,9 +333,9 @@ public class Login extends Command {
 **Must define com.camnter.robotlegs4android.mvcs.Context**
 **必须定义一个com.camnter.robotlegs4android.mvcs.Context**
 
-- **1.In order to configure the View and ViewMediator（为了配置View和对应Mediator）。**
-- **2.In order to singleton injection Model - Actor（为了单例初始化Model - Actor）。**
-- **3.In order to configure the incoming Controller -command events（为了配置传入Controller - Command 的事件）。**
+- **1.In order to configure the View and ViewMediator  （为了配置View和对应Mediator）。**
+- **2.In order to singleton injection Model - Actor  （为了单例初始化Model - Actor）。**
+- **3.In order to configure the incoming Controller -command events  （为了配置传入Controller - Command 的事件）。**
 
 **MainContext**
 ```Java
@@ -392,7 +399,7 @@ public class MainContext extends Context {
 
 `extends RobotlegsApplication`
 
-**Must define a Robotlegs4Android Application to initialize the corresponding Robotlegs4Android Contex**
+**Must define a Robotlegs4Android Application to initialize the corresponding Robotlegs4Android Context**  
 **必须定义一个Robotlegs4Android Application去初始化对应的Robotlegs4Android Context**
 
 **MainApplication**
@@ -461,7 +468,7 @@ public class MainApplication extends RobotlegsApplication {
 
 ## Event View to Controller
 
-**TabLayoutFirstFragmentMediator** Send an LoginEvent.USER_LOGIN type of LoginEvent。
+**TabLayoutFirstFragmentMediator** Send an LoginEvent.USER_LOGIN type of LoginEvent.   
 **TabLayoutFirstFragmentMediator** 发送一个LoginEvent.USER_LOGIN的LoginEvent。
 ```Java
     /**
@@ -488,7 +495,7 @@ public class MainApplication extends RobotlegsApplication {
     }
 ```
 
-**MainContext** Set up a LoginEvent.USER_LOGIN type of event to the Controller.
+**MainContext** Set up a LoginEvent.USER_LOGIN type of event to the Controller.  
 **MainContext** 设置了LoginEvent.USER_LOGIN事件的去向的Controller。
 ```Java
         this.getCommandMap().mapEvent(LoginEvent.USER_LOGIN, Login.class,
@@ -534,7 +541,7 @@ public class MainApplication extends RobotlegsApplication {
 
 ## Event Model to Controller
 
-**UserModel** 的`login(String name,String password)` method send an LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_CONTROLLER type of LoginEvent。
+**UserModel** 的`login(String name,String password)` method send an LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_CONTROLLER type of LoginEvent。  
 
 **UserModel** 的`login(String name,String password)`方法发送一个LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_CONTROLLER的LoginEvent。
 ```Java
@@ -558,7 +565,7 @@ public class MainApplication extends RobotlegsApplication {
 
 ## Event Model to View
 
-**UserModel** 的`login(String name,String password)` send an LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW type of LoginEvent again。
+**UserModel** 的`login(String name,String password)` send an LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW type of LoginEvent again。  
 
 
 **UserModel** 的`login(String name,String password)`方法再发送一个LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW的LoginEvent。
@@ -589,7 +596,7 @@ public class MainApplication extends RobotlegsApplication {
 
 `Mediator.getEventMap().mapListener(IEventDispatcher dispatcher, String type,IListener listener, Class<?> eventClass, Boolean useCapture,int priority, Boolean useWeakReference)`
 
-**TabLayoutFirstFragmentMediator** Add to LoginEvent. USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW type of LoginEvent listening .
+**TabLayoutFirstFragmentMediator** Add to LoginEvent. USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW type of LoginEvent listening .   
 
 **TabLayoutFirstFragmentMediator** 添加对LoginEvent.USER_LOGIN_SUCCESS_FROM_MODEL_TO_VIEW类型的LoginEvent的监听。
 ```Java
@@ -645,7 +652,7 @@ public class MainApplication extends RobotlegsApplication {
 ---
 
 ## Event Controller to View
-**Login** send an LoginEvent.USER_LOGIN_SUCCESS_FROM_CONTROLLER_TO_VIEW type of LoginEvent。
+**Login** send an LoginEvent.USER_LOGIN_SUCCESS_FROM_CONTROLLER_TO_VIEW type of LoginEvent。   
 **Login** 发送一个LoginEvent.USER_LOGIN_SUCCESS_FROM_CONTROLLER_TO_VIEW类型的LoginEvent。
 ```Java
     /**
@@ -679,7 +686,7 @@ public class MainApplication extends RobotlegsApplication {
 
 `Mediator.getEventMap().mapListener(IEventDispatcher dispatcher, String type,IListener listener, Class<?> eventClass, Boolean useCapture,int priority, Boolean useWeakReference)`
 
-**TabLayoutFirstFragmentMediator** Add one more to LoginEvent. USER_LOGIN_SUCCESS_FROM_CONTROLLER_TO_VIEW type of LoginEvent listening.
+**TabLayoutFirstFragmentMediator** Add one more to LoginEvent. USER_LOGIN_SUCCESS_FROM_CONTROLLER_TO_VIEW type of LoginEvent listening.   
 
 **TabLayoutFirstFragmentMediator** 再添加一个对LoginEvent.USER_LOGIN_SUCCESS_FROM_CONTROLLER_TO_VIEW类型的LoginEvent的监听。
 ```Java
