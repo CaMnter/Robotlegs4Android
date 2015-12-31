@@ -7,92 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a46b2c-0ec3-4a9c-ba7c-9665aaa57b03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/controller/Login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/controller/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/event/LoginEvent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/event/LoginEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/adapter/MainActivityAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/adapter/MainActivityAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/activity/MainActivityMediator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/activity/MainActivityMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/application/MainApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/application/MainApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/robotlegscontext/MainContext.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/robotlegscontext/MainContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFirstFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFirstFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFirstFragmentMediator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFirstFragmentMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFourthFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFourthFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFourthFragmentMediator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutFourthFragmentMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutSecondFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutSecondFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutSecondFragmentMediator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutSecondFragmentMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutThirdFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutThirdFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutThirdFragmentMediator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/fragment/TabLayoutThirdFragmentMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/bean/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/bean/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/model/UserModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/model/UserModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/easyrecyclerview_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/easyrecyclerview_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/robotlegs4android.iml" afterPath="$PROJECT_DIR$/robotlegs4android/robotlegs4android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Robotlegs4Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,16 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InjectSingletonResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InjectValueResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,11 +108,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RobotlegsFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RobotlegsFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5251641">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.96614">
+              <caret line="786" column="1" selection-start-line="786" selection-start-column="1" selection-end-line="786" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -2424,7 +2342,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" />
@@ -2475,6 +2392,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/adapter/MainActivityAdapter.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -3570,7 +3488,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3627,14 +3545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4029,8 +3939,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5251641">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96614">
+          <caret line="786" column="1" selection-start-line="786" selection-start-column="1" selection-end-line="786" selection-end-column="1" />
           <folding />
         </state>
       </provider>
