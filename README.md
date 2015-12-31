@@ -28,7 +28,7 @@ This is Robotlegs4Android MVC flow chart（这是Robotlegs4Android 的 MVC 流�
 
 ```Gradle
 dependencies {
-    compile 'com.camnter.robotlegs4android:robotlegs4android:0.8'
+    compile 'com.camnter.robotlegs4android:robotlegs4android:1.0'
 }
 ```
 
@@ -784,4 +784,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
- 
+
