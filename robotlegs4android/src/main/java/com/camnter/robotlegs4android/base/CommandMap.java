@@ -33,8 +33,6 @@ import java.util.Map;
  */
 public class CommandMap implements ICommandMap {
 
-    private final String TAG = "CommandMap";
-
     /**
      * The <code>IEventDispatcher</code> to listen to
      */
@@ -81,9 +79,9 @@ public class CommandMap implements ICommandMap {
         this.eventDispatcher = eventDispatcher;
         this.injector = injector;
         this.reflector = reflector;
-        this.eventTypeMap = new HashMap<String, Object>();
-        this.verifiedCommandClasses = new HashMap<String, Object>();
-        this.detainedCommands = new HashMap<String, Object>();
+        this.eventTypeMap = new HashMap<>();
+        this.verifiedCommandClasses = new HashMap<>();
+        this.detainedCommands = new HashMap<>();
     }
 
     // ---------------------------------------------------------------------
@@ -169,7 +167,7 @@ public class CommandMap implements ICommandMap {
                 }
             }
         }
-        this.eventTypeMap = new HashMap<String, Object>();
+        this.eventTypeMap = new HashMap<>();
     }
 
     /**
@@ -187,10 +185,8 @@ public class CommandMap implements ICommandMap {
         Map<String, Object> callbacksByCommandClass = (Map<String, Object>) eventClassMap
                 .get(eventClass == null ? Event.class.hashCode() + ""
                         : eventClass.hashCode() + "");
-        if (callbacksByCommandClass == null)
-            return false;
+        return callbacksByCommandClass != null && callbacksByCommandClass.get(commandClass.hashCode() + "") != null;
 
-        return callbacksByCommandClass.get(commandClass.hashCode() + "") != null;
     }
 
     /**
@@ -255,7 +251,8 @@ public class CommandMap implements ICommandMap {
                 this.verifiedCommandClasses.put(commandClass.hashCode() + "",
                         commandClass.getMethod("execute").toString());
             } catch (NoSuchMethodException e) {
-                Log.e(this.TAG, e.getMessage());
+                String TAG = "CommandMap";
+                Log.e(TAG, e.getMessage());
             }
             if (this.verifiedCommandClasses.get(commandClass.hashCode() + "") == null) {
                 throw new ContextError(ContextError.E_COMMANDMAP_NOIMPL + " - "
