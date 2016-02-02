@@ -29,7 +29,7 @@ public interface IViewMap {
      *
      * @param packageName The substring to compare 子字符串比较
      */
-    public void mapPackage(String packageName);
+    void mapPackage(String packageName);
 
     /**
      * {@inheritDoc}
@@ -38,7 +38,7 @@ public interface IViewMap {
      *
      * @param packageName The substring to compare 子字符串比较
      */
-    public void unmapPackage(String packageName);
+    void unmapPackage(String packageName);
 
     /**
      * {@inheritDoc}
@@ -49,7 +49,7 @@ public interface IViewMap {
      * @return Whether a package has been registered for automatic injection
      * 一个包是否已经注册自动注入
      */
-    public Boolean hasPackage(String packageName);
+    Boolean hasPackage(String packageName);
 
     /**
      * {@inheritDoc}
@@ -58,7 +58,7 @@ public interface IViewMap {
      *
      * @param type The concrete view Interface 具体的视图界面
      */
-    public void mapType(Class<?> type);
+    void mapType(Class<?> type);
 
     /**
      * {@inheritDoc}
@@ -67,7 +67,7 @@ public interface IViewMap {
      *
      * @param type The concrete view Interface 具体的视图界面
      */
-    public void unmapType(Class<?> type);
+    void unmapType(Class<?> type);
 
     /**
      * {@inheritDoc}
@@ -78,7 +78,7 @@ public interface IViewMap {
      * @return Whether an interface has been registered for automatic injection
      * 一个包是否已经注册自动注入
      */
-    public Boolean hasType(Class<?> type);
+    Boolean hasType(Class<?> type);
 
     /**
      * {@inheritDoc}
@@ -88,7 +88,7 @@ public interface IViewMap {
      * @return view The <code>DisplayObjectContainer</code> to use as scope for
      * this <code>IViewMap</code> DisplayObjectContainer使用作为这IViewMap范围
      */
-    public Object getContextView();
+    Object getContextView();
 
     /**
      * {@inheritDoc}
@@ -99,7 +99,7 @@ public interface IViewMap {
      *              this <code>IViewMap</code>
      *              DisplayObjectContainer使用作为这IViewMap范围
      */
-    public void setContextView(Object value);
+    void setContextView(Object value);
 
     /**
      * {@inheritDoc}
@@ -108,7 +108,7 @@ public interface IViewMap {
      *
      * @return Whether the <code>IViewMap</code> is enabled IViewMap是否启用
      */
-    public Boolean getEnabled();
+    Boolean getEnabled();
 
     /**
      * {@inheritDoc}
@@ -117,6 +117,6 @@ public interface IViewMap {
      *
      * @param value the <code>IViewMap</code> is enabled IViewMap是否启用
      */
-    public void setEnabled(Boolean value);
+    void setEnabled(Boolean value);
 
 }
