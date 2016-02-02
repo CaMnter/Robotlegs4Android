@@ -312,8 +312,7 @@ public abstract class Context extends ContextBase implements IContext {
      * @return IInjector
      */
     protected IInjector createInjector() {
-        IInjector injector = new SwiftSuspendersInjector(null);
-        return injector;
+        return new SwiftSuspendersInjector(null);
     }
 
     /**
