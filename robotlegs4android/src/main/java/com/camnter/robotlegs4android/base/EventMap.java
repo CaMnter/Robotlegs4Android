@@ -55,7 +55,7 @@ public class EventMap implements IEventMap {
      * @param eventDispatcher The <code>IEventDispatcher</code> type. IEventDispatcher类型
      */
     public EventMap(IEventDispatcher eventDispatcher) {
-        this.listeners = new ArrayList<Object>();
+        this.listeners = new ArrayList<>();
         this.eventDispatcher = eventDispatcher;
     }
 

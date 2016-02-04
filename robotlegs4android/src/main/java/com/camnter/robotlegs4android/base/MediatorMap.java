@@ -25,7 +25,7 @@ import com.camnter.robotlegs4android.core.IReflector;
 import com.camnter.robotlegs4android.expand.IFragmentActivity;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -89,10 +89,10 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
          * mappings - if you can do it with fewer dictionaries you get a prize
          * 映射——如果你可以用更少的字典你得到一个奖
          */
-        this.mediatorByView = new HashMap<String, Object>();
-        this.mappingConfigByView = new HashMap<String, Object>();
-        this.mediatorsMarkedForRemoval = new HashMap<String, Object>();
-        this.mappingConfigByViewClassName = new HashMap<String, Object>();
+        this.mediatorByView = new HashMap<>();
+        this.mappingConfigByView = new HashMap<>();
+        this.mediatorsMarkedForRemoval = new HashMap<>();
+        this.mappingConfigByViewClassName = new HashMap<>();
     }
 
     // ---------------------------------------------------------------------
@@ -129,12 +129,12 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
                 config.typedViewClasses = (ArrayList<Object>) ((ArrayList<Object>) injectViewAs)
                         .clone();
             } else if (Class.class.isInstance(injectViewAs)) {
-                config.typedViewClasses = new ArrayList<Object>(
-                        Arrays.asList(injectViewAs));
+                config.typedViewClasses = new ArrayList<>(
+                        Collections.singletonList(injectViewAs));
             }
         } else if (Class.class.isInstance(viewClassOrName)) {
-            config.typedViewClasses = new ArrayList<Object>(
-                    Arrays.asList(viewClassOrName));
+            config.typedViewClasses = new ArrayList<>(
+                    Collections.singletonList(viewClassOrName));
         }
 
         this.mappingConfigByViewClassName.put(viewClassName, config);
@@ -233,7 +233,7 @@ public class MediatorMap extends ViewMapBase implements IMediatorMap {
                 this.injector.unmap(mediatorClass, "");
             }
         }
-        Log.e("removeMediator_mediator", mediator.hashCode() + "");
+        Log.e("removeMediator_mediator", (mediator != null ? mediator.hashCode() : 0) + "");
         return mediator;
     }
 
