@@ -41,8 +41,8 @@ public interface IMediatorMap {
      *                        leaves the ancestors of the context view
      *                        viewClass离开的父类上下文视图时,自动删除类的一个实例mediatorClass
      */
-    public void mapView(Object viewClassOrName, Class<?> mediatorClass,
-                        Object injectViewAs, Boolean autoCreate, Boolean autoRemove);
+    void mapView(Object viewClassOrName, Class<?> mediatorClass,
+                 Object injectViewAs, Boolean autoCreate, Boolean autoRemove);
 
     /**
      * {@inheritDoc}
@@ -52,7 +52,7 @@ public interface IMediatorMap {
      * @param viewClassOrName The concrete view Class or Fully Qualified Class Name
      *                        具体的视图类或完全限定类名
      */
-    public void unmapView(Object viewClassOrName);
+    void unmapView(Object viewClassOrName);
 
     /**
      * {@inheritDoc}
@@ -66,7 +66,7 @@ public interface IMediatorMap {
      *                      <code>IMediator</code> Class 视图类的一个实例之前映射到一个IMediator类
      * @return The <code>IMediator</code>
      */
-    public IMediator createMediator(Object viewComponent);
+    IMediator createMediator(Object viewComponent);
 
     /**
      * {@inheritDoc}
@@ -80,7 +80,7 @@ public interface IMediatorMap {
      *                      IMediator的视图组件
      * @param mediator      The <code>IMediator</code> to register IMediator注册
      */
-    public void registerMediator(Object viewComponent, IMediator mediator);
+    void registerMediator(Object viewComponent, IMediator mediator);
 
     /**
      * {@inheritDoc}
@@ -89,7 +89,7 @@ public interface IMediatorMap {
      * @param mediator The <code>IMediator</code> to remove 要删除的IMediator
      * @return The <code>IMediator</code> that was removed 被删除的IMediator
      */
-    public IMediator removeMediator(IMediator mediator);
+    IMediator removeMediator(IMediator mediator);
 
     /**
      * {@inheritDoc}
@@ -99,7 +99,7 @@ public interface IMediatorMap {
      * @param viewComponent The view component for the <code>IMediator</code>
      *                      IMediator的视图组件
      */
-    public void unInjectMediator(Object viewComponent);
+    void unInjectMediator(Object viewComponent);
 
     /**
      * {@inheritDoc}
@@ -110,7 +110,7 @@ public interface IMediatorMap {
      *                      IMediator注册的view组件
      * @return The <code>IMediator</code> that was removed 被删除的IMediator
      */
-    public IMediator removeMediatorByView(Object viewComponent);
+    IMediator removeMediatorByView(Object viewComponent);
 
     /**
      * {@inheritDoc}
@@ -121,7 +121,7 @@ public interface IMediatorMap {
      *                      IMediator注册的view组件
      * @return The <code>IMediator</code> 被检索的IMediator
      */
-    public IMediator retrieveMediator(Object viewComponent);
+    IMediator retrieveMediator(Object viewComponent);
 
     /**
      * {@inheritDoc}
@@ -132,7 +132,7 @@ public interface IMediatorMap {
      *                        具体的视图类或完全限定类名
      * @return Whether this view class has been mapped 这一视图类是否已经映射
      */
-    public Boolean hasMapping(Object viewClassOrName);
+    Boolean hasMapping(Object viewClassOrName);
 
     /**
      * {@inheritDoc}
@@ -143,7 +143,7 @@ public interface IMediatorMap {
      * @return Whether this <code>IMediator</code> has been registered
      * 这是否IMediator已经注册
      */
-    public Boolean hasMediator(IMediator mediator);
+    Boolean hasMediator(IMediator mediator);
 
     /**
      * {@inheritDoc}
@@ -156,7 +156,7 @@ public interface IMediatorMap {
      * @return Whether an <code>IMediator</code> has been registered for this
      * view instance IMediator是否已经注册了这个视图实例
      */
-    public Boolean hasMediatorForView(Object viewComponent);
+    Boolean hasMediatorForView(Object viewComponent);
 
     /**
      * {@inheritDoc}
@@ -167,7 +167,7 @@ public interface IMediatorMap {
      * <code>IMediatorMap</code>
      * DisplayObjectContainer使用作为这IMediatorMap范围
      */
-    public Object getContextView();
+    Object getContextView();
 
     /**
      * {@inheritDoc}
@@ -178,7 +178,7 @@ public interface IMediatorMap {
      *              this <code>IMediatorMap</code>
      *              DisplayObjectContainer使用作为这IMediatorMap范围
      */
-    public void setContextView(Object value);
+    void setContextView(Object value);
 
     /**
      * {@inheritDoc}
@@ -188,7 +188,7 @@ public interface IMediatorMap {
      * @return Whether the <code>IMediatorMap</code> should be enabled
      * IMediatorMap是否应该启用
      */
-    public Boolean getEnabled();
+    Boolean getEnabled();
 
     /**
      * {@inheritDoc}
@@ -198,6 +198,6 @@ public interface IMediatorMap {
      * @param viewComponent The view component for the <code>IMediator</code>
      *                      IMediator的视图组件
      */
-    public void addMediator(Object viewComponent);
+    void addMediator(Object viewComponent);
 
 }

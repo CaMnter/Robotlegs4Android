@@ -31,8 +31,8 @@ public interface IReflector {
      * @param superclass superclass
      * @return Boolean
      */
-    public Boolean classExtendsOrImplements(Object classOrClassName,
-                                            Class<?> superclass);
+    Boolean classExtendsOrImplements(Object classOrClassName,
+                                     Class<?> superclass);
 
     /**
      * {@inheritDoc}
@@ -42,7 +42,7 @@ public interface IReflector {
      * @param value value
      * @return Class
      */
-    public Class<?> getClass(Object value);
+    Class<?> getClass(Object value);
 
     /**
      * *****************************************************************
@@ -55,6 +55,6 @@ public interface IReflector {
      * @return The Fully Qualified Class Name 完全限定类名
      * *****************************************************************
      */
-    public String getFullyQualifiedClassName(Object value, Boolean replaceColons);
+    String getFullyQualifiedClassName(Object value, Boolean replaceColons);
 
 }

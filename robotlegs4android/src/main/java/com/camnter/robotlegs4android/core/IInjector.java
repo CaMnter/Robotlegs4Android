@@ -34,7 +34,7 @@ public interface IInjector {
      * @return A reference to the rule for this injection. To be used with
      * <code>mapRule</code> 引用的规则注入。与使用mapRule
      */
-    public Object mapValue(Class<?> whenAskedFor, Object useValue, String named);
+    Object mapValue(Class<?> whenAskedFor, Object useValue, String named);
 
     /**
      * {@inheritDoc}
@@ -48,8 +48,8 @@ public interface IInjector {
      * @return A reference to the rule for this injection. To be used with
      * <code>mapRule</code> 引用的规则注入。与使用mapRule
      */
-    public Object mapClass(Class<?> whenAskedFor, Class<?> instantiateClass,
-                           String named);
+    Object mapClass(Class<?> whenAskedFor, Class<?> instantiateClass,
+                    String named);
 
     /**
      * {@inheritDoc}
@@ -62,7 +62,7 @@ public interface IInjector {
      * @return A reference to the rule for this injection. To be used with
      * <code>mapRule</code> 引用的规则注入。与使用mapRule
      */
-    public Object mapSingleton(Class<?> whenAskedFor, String named);
+    Object mapSingleton(Class<?> whenAskedFor, String named);
 
     /**
      * {@inheritDoc}
@@ -76,8 +76,8 @@ public interface IInjector {
      * @return A reference to the rule for this injection. To be used with
      * <code>mapRule</code> 引用的规则注入。与使用mapRule
      */
-    public Object mapSingletonOf(Class<?> whenAskedFor,
-                                 Class<?> useSingletonOf, String named);
+    Object mapSingletonOf(Class<?> whenAskedFor,
+                          Class<?> useSingletonOf, String named);
 
     /**
      * {@inheritDoc}
@@ -91,7 +91,7 @@ public interface IInjector {
      * @return A reference to the rule for this injection. To be used with
      * <code>mapRule</code> 引用的规则注入。与使用mapRule
      */
-    public Object mapRule(Class<?> whenAskedFor, Object useRule, String named);
+    Object mapRule(Class<?> whenAskedFor, Object useRule, String named);
 
     /**
      * {@inheritDoc}
@@ -103,7 +103,7 @@ public interface IInjector {
      *
      * @param target The object to inject into - the Injectee 对象注入到——时候解析
      */
-    public void injectInto(Object target);
+    void injectInto(Object target);
 
     /**
      * {@inheritDoc}
@@ -125,7 +125,7 @@ public interface IInjector {
      * @param clazz The class to instantiate 要实例化的类
      * @return The created instance 创建实例
      */
-    public Object instantiate(Class<?> clazz);
+    Object instantiate(Class<?> clazz);
 
     /**
      * {@inheritDoc}
@@ -136,7 +136,7 @@ public interface IInjector {
      * @param named An optional name (id) 一个可选的名字(id)
      * @return An instance 一个实例
      */
-    public Object getInstance(Class<?> clazz, String named);
+    Object getInstance(Class<?> clazz, String named);
 
     /**
      * {@inheritDoc}
@@ -145,7 +145,7 @@ public interface IInjector {
      *
      * @return The injector 这个注入器
      */
-    public IInjector createChild();
+    IInjector createChild();
 
     /**
      * {@inheritDoc}
@@ -155,7 +155,7 @@ public interface IInjector {
      * @param clazz A class or interface 一个类或接口
      * @param named 一个可选的名字(id)
      */
-    public void unmap(Class<?> clazz, String named);
+    void unmap(Class<?> clazz, String named);
 
     /**
      * {@inheritDoc}
@@ -165,7 +165,7 @@ public interface IInjector {
      * @param named 一个可选的名字(id)
      * @return Whether such a mapping exists 是否存在这样的一个映射
      */
-    public Boolean hasMapping(Class<?> clazz, String named);
+    Boolean hasMapping(Class<?> clazz, String named);
 
     /**
      * @return The Application Domain

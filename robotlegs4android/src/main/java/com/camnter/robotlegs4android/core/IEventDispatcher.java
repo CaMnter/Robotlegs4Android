@@ -62,8 +62,8 @@ public interface IEventDispatcher {
      *                         true，则该函数将被作为垃圾回收并且不再是永久函数
      *                         。如果创建对该内部函数的引用（将该函数保存到另一个变量中），则该函数将不作为垃圾回收并仍将保持永久。
      */
-    public void addEventListener(String type, IListener listener,
-                                 Boolean useCapture, int priority, Boolean useWeakReference);
+    void addEventListener(String type, IListener listener,
+                          Boolean useCapture, int priority, Boolean useWeakReference);
 
     /**
      * {@inheritDoc}
@@ -72,7 +72,7 @@ public interface IEventDispatcher {
      * @param event 调度到事件流中的事件对象。
      * @return 除非对事件调用 preventDefault()（在这种情况下，它返回 false），否则值为 true。
      */
-    public Boolean dispatchEvent(Event event);
+    Boolean dispatchEvent(Event event);
 
     /**
      * {@inheritDoc}
@@ -85,7 +85,7 @@ public interface IEventDispatcher {
      * @param type 事件的类型。
      * @return 如果指定类型的侦听器已注册，则值为 true；否则，值为 false。
      */
-    public Boolean hasEventListener(String type);
+    Boolean hasEventListener(String type);
 
     /**
      * {@inheritDoc}
@@ -98,8 +98,8 @@ public interface IEventDispatcher {
      *                   removeEventListener() 进行两次调用才能将这两个侦听器删除：一次调用将 useCapture 设置为
      *                   true，另一次调用将 useCapture 设置为 false。
      */
-    public void removeEventListener(String type, IListener listener,
-                                    Boolean useCapture);
+    void removeEventListener(String type, IListener listener,
+                             Boolean useCapture);
 
     /**
      * {@inheritDoc}
@@ -111,6 +111,6 @@ public interface IEventDispatcher {
      * @param type 事件的类型。
      * @return 如果将会触发指定类型的侦听器，则值为 true；否则，值为 false。
      */
-    public Boolean willTrigger(String type);
+    Boolean willTrigger(String type);
 
 }

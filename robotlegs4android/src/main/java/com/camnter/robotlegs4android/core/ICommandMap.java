@@ -29,7 +29,7 @@ public interface ICommandMap {
      *
      * @param command The Command instance to detain 命令实例拘留
      */
-    public void detain(Object command);
+    void detain(Object command);
 
     /**
      * {@inheritDoc}
@@ -39,7 +39,7 @@ public interface ICommandMap {
      * @param command The Command instance to release for garbage collection
      *                命令实例发布垃圾收集
      */
-    public void release(Object command);
+    void release(Object command);
 
     /**
      * {@inheritDoc}
@@ -54,8 +54,8 @@ public interface ICommandMap {
      * @param payloadClass An optional class to inject the payload as 一个可选的类注入有效负载
      * @param named        An optional name for the payload injection 一个可选的有效负载注入的名称
      */
-    public void execute(Class<?> commandClass, Object payload,
-                        Class<?> payloadClass, String named);
+    void execute(Class<?> commandClass, Object payload,
+                 Class<?> payloadClass, String named);
 
     /**
      * {@inheritDoc}
@@ -74,8 +74,8 @@ public interface ICommandMap {
      *                     这种类型的一个变量来访问事件,引发了命令
      * @param oneshot      Unmap the Class after execution? 执行后取消类吗?
      */
-    public void mapEvent(String eventType, Class<?> commandClass,
-                         Class<?> eventClass, Boolean oneshot);
+    void mapEvent(String eventType, Class<?> commandClass,
+                  Class<?> eventClass, Boolean oneshot);
 
     /**
      * {@inheritDoc}
@@ -87,14 +87,14 @@ public interface ICommandMap {
      * @param eventClass   Optional Event class for a stronger mapping. Defaults to
      *                     <code>Event</code>. 可选事件类更强的映射。默认为Event
      */
-    public void unmapEvent(String eventType, Class<?> commandClass,
-                           Class<?> eventClass);
+    void unmapEvent(String eventType, Class<?> commandClass,
+                    Class<?> eventClass);
 
     /**
      * Removes all mappings made through <code>mapEvent</code>
      * 通过mapEvent删除所有映射
      */
-    public void unmapEvents();
+    void unmapEvents();
 
     /**
      * Check if a Class has been mapped to an Event type
@@ -106,7 +106,7 @@ public interface ICommandMap {
      *                     <code>Event</code>. 可选事件类更强的映射。默认为Event
      * @return Whether the Class is mapped to this Event type 是否类映射到这个事件类型
      */
-    public Boolean hasEventCommand(String eventType, Class<?> commandClass,
-                                   Class<?> eventClass);
+    Boolean hasEventCommand(String eventType, Class<?> commandClass,
+                            Class<?> eventClass);
 
 }

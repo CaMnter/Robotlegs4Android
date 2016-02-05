@@ -28,6 +28,6 @@ public interface IContext {
      *
      * @return <code>com.camnter.robotlegs4android.core.IEventDispatcher</code>
      */
-    public IEventDispatcher getEventDispatcher();
+    IEventDispatcher getEventDispatcher();
 
 }

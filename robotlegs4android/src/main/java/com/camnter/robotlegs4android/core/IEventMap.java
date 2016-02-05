@@ -38,9 +38,9 @@ public interface IEventMap {
      * @param priority         priority
      * @param useWeakReference useWeakReference
      */
-    public void mapListener(IEventDispatcher dispatcher, String type,
-                            IListener listener, Class<?> eventClass, Boolean useCapture,
-                            int priority, Boolean useWeakReference);
+    void mapListener(IEventDispatcher dispatcher, String type,
+                     IListener listener, Class<?> eventClass, Boolean useCapture,
+                     int priority, Boolean useWeakReference);
 
     /**
      * {@inheritDoc}
@@ -55,14 +55,14 @@ public interface IEventMap {
      *                   <code>Event</code>. 可选事件类更强的映射。默认值为Event。
      * @param useCapture useCapture
      */
-    public void unmapListener(IEventDispatcher dispatcher, String type,
-                              IListener listener, Class<?> eventClass, Boolean useCapture);
+    void unmapListener(IEventDispatcher dispatcher, String type,
+                       IListener listener, Class<?> eventClass, Boolean useCapture);
 
     /**
      * {@inheritDoc}
      * Removes all listeners registered through <code>mapListener</code>
      * 通过mapListener删除所有侦听器注册
      */
-    public void unmapListeners();
+    void unmapListeners();
 
 }

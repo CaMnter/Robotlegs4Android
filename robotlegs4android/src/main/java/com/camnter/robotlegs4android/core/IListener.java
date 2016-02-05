@@ -27,26 +27,26 @@ public interface IListener {
      * {@inheritDoc}
      * @return The name of the listener：listener的名称
      */
-    public String getName();
+    String getName();
 
     /**
      * {@inheritDoc}
      * @return The type of the listener：listener的类型
      */
-    public String getType();
+    String getType();
 
     /**
      * {@inheritDoc}
      * @param type
      *            set type of the listener 设置listener的类型
      */
-    public void setType(String type);
+    void setType(String type);
 
     /**
      * {@inheritDoc}
      * @param event
      *            <code>com.camnter.robotlegs4android.base.Event</code>
      */
-    public void onHandle(Event event);
+    void onHandle(Event event);
 
 }

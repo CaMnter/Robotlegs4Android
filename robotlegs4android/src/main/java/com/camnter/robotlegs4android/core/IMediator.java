@@ -29,7 +29,7 @@ public interface IMediator {
      * <code>IMediator</code> registration
      * 在IMediator注册时,应该被IMediatorMap调用。
      */
-    public void preRegister();
+    void preRegister();
 
     /**
      * {@inheritDoc}
@@ -40,7 +40,7 @@ public interface IMediator {
      * Override and place your initialization code here
      * 覆盖,这里的初始化代码
      */
-    public void onRegister();
+    void onRegister();
 
     /**
      * {@inheritDoc}
@@ -49,7 +49,7 @@ public interface IMediator {
      * <code>IMediatorMap</code>
      * IMediator 被删除前，被IMediatorMap调用.
      */
-    public void preRemove();
+    void preRemove();
 
     /**
      * {@inheritDoc}
@@ -60,7 +60,7 @@ public interface IMediator {
      * Override and place your cleanup code here
      * 覆盖,这里的初始化代码
      */
-    public void onRemove();
+    void onRemove();
 
     /**
      * {@inheritDoc}
@@ -69,7 +69,7 @@ public interface IMediator {
      *
      * @return The view component 视图组件
      */
-    public Object getViewComponent();
+    Object getViewComponent();
 
     /**
      * {@inheritDoc}
@@ -78,6 +78,6 @@ public interface IMediator {
      *
      * @param viewComponent The view component 视图组件
      */
-    public void setViewComponent(Object viewComponent);
+    void setViewComponent(Object viewComponent);
 
 }
