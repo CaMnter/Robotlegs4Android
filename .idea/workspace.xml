@@ -8,6 +8,26 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a46b2c-0ec3-4a9c-ba7c-9665aaa57b03" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java" />
@@ -17,6 +37,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" afterPath="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" />
     </list>
     <ignored path="Robotlegs4Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,102 +82,102 @@
     <favorites_list name="Robotlegs4Android" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ICommandMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java">
+    <leaf>
+      <file leaf-file-name="EventMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java">
+      <file leaf-file-name="EventDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEventDispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java">
+      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEventMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java">
+      <file leaf-file-name="ContextEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IInjector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java">
+      <file leaf-file-name="ContextError.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java">
+      <file leaf-file-name="ContextBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMediator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java">
+      <file leaf-file-name="CommandMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMediatorMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java">
+      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IReflector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java">
+      <file leaf-file-name="SwiftSuspendersReflector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IViewMap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java">
+      <file leaf-file-name="SwiftSuspendersInjector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4113924">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.02631579">
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -2452,57 +2498,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/application/MainApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/camnter/robotlegs4android/test/view/adapter/MainActivityAdapter.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/robotlegs4android/build.gradle" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" />
-        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" />
         <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java" />
+        <option value="$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java" />
       </list>
     </option>
   </component>
@@ -2543,6 +2589,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Robotlegs4Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2945,19 +3004,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Robotlegs4Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3269,8 +3315,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1398" height="877" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1398" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3282,12 +3328,12 @@
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3416557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21550591" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36430678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28761062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -3349,66 +3395,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -3416,91 +3406,151 @@
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Reflector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsApplication.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectorError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/Injector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/views/RobotlegsFragment.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5215232">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3228477">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44270834">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/build.gradle">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/InjectionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="49" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0416666">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectValueResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1732283">
-          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.02631579">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectSingletonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectOtherRuleResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionresults/InjectClassResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02631579">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PropertyInjectionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/PostConstructInjectionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/MethodInjectionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/InjectionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02631579">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.015748">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/mvcs/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.511811">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -3508,215 +3558,23 @@
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/expand/IApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.02631579">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34810126">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7468355">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03164557">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9177215">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67932487">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17510548">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17088607">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23628692">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.10759494">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20464136">
-          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.56962">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9135021">
-          <caret line="301" column="8" selection-start-line="301" selection-start-column="8" selection-end-line="301" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8059072">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8101266">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7468355">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8945148">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.07173">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -3724,15 +3582,55 @@
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IReflector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediatorMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IEventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -3740,15 +3638,167 @@
     <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/IViewMap.java">
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/core/ICommandMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4113924">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XMLList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/XML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMapBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ViewMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/PostConstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/MediatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Inject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/EventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/ContextBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/CommandMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersReflector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotlegs4android/src/main/java/com/camnter/robotlegs4android/adapter/SwiftSuspendersInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02631579">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
